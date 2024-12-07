@@ -73,7 +73,7 @@ Antes de iniciar, você precisará ter instalado:
 ---
 ## 📖 Endpoints Disponíveis
 
-### **POST /pacientes**
+### **GET /pecas**
 - Adiciona um novo paciente ao banco de dados.
 - **Requisição:**
     - **URL:** `http://localhost:8080/pecas/`
