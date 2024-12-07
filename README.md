@@ -76,17 +76,25 @@ Antes de iniciar, você precisará ter instalado:
 ### **POST /pacientes**
 - Adiciona um novo paciente ao banco de dados.
 - **Requisição:**
-    - **URL:** `http://localhost:8080/pacientes`
-    - **Método:** `POST`
+    - **URL:** `http://localhost:8080/pecas/`
+    - **Método:** `GET`
   - **Corpo da requisição:**
     ```json
-    {
-      "fullName": "João Silva"
-    }
+    [
+      {
+          "marca": "FIAT",
+          "codigoCofap": "BUC03201",
+          "codigoOriginal": "4251331",
+          "codigoAxios": "011.0285",
+          "codigoSampel": "1002",
+          "codigoMobensani": "MB 412",
+          "codigoBorflex": "702",
+          "codigoYibrasil": "FT1072",
+          "embalagem": 8.0,
+          "nome": "BUCHA DA BANDEJA DA SUSPENSÃO TRASEIRA",
+          "modelo": "147",
+          "ano": "76 / 82"
+      },
+      ...
+    ]
     ```
-- **Resposta:**
-  ```json
-  {
-    "id": 1,
-    "fullName": "João Silva"
-  }
