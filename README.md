@@ -74,6 +74,8 @@ Antes de iniciar, você precisará ter instalado:
 ## 📖 Endpoints Disponíveis
 
 ### **GET /pecas**
+### **GET /pecas/?marca=**
+### **GET /pecas/?codigoCofap=**
 - Adiciona um novo paciente ao banco de dados.
 - **Requisição:**
     - **URL:** `http://localhost:8080/pecas/`
